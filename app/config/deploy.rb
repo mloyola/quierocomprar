@@ -6,7 +6,7 @@ set :app_path,    "app"
 set :user,		  "mb"	
 set :use_sudo,      false
 ssh_options[:port] = 22123
-set :php_bin,		"usr/bin/php" 
+#set :php_bin,		"usr/bin/php" 
 
 set :repository,  "https://github.com/mloyola/quierocomprar.git"
 set :scm,         :git
